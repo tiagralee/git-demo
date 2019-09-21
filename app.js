@@ -5,7 +5,7 @@ const app = express();
 //middleware
 
 function requestCommming(req, res, next) {
-    console.log("master")
+    console.log("master + dev")
     next();
 }
 
